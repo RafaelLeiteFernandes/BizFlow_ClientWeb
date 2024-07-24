@@ -1,0 +1,25 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #F5F7F8;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+.toggle-checkbox:checked {
+  right: 0;
+  border-color: #DC5F00;
+  background-color: #DC5F00;
+}
+
+.toggle-checkbox {
+  right: 4px;
+}
+
+.toggle-label {
+  width: 40px;
+  height: 24px;
+  transition: background-color 0.2s ease-in;
+}
