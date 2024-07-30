@@ -1,12 +1,10 @@
-// pages/login.tsx
-import Layout from '../../components/Layout';
+// src/pages/home/index.tsx
 
-const LoginPage: React.FC = () => {
-  return (
-    <Layout>
-      <></>
-    </Layout>
-  );
+import React from 'react';
+import withAuth from '../../components/withAuth';
+
+const HomePage: React.FC = () => {
+  return <div>Bem-vindo à página inicial!</div>;
 };
 
-export default LoginPage;
+export default withAuth(HomePage);
